@@ -1,11 +1,11 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    background-color: #eef0a3;
+    background-image: url(background.png);
 }
 
 #sub {
-    font-weight: lighter;
+    margin: 0px;
 }
 
 .caixa-login {
@@ -13,5 +13,22 @@ body {
     border-radius: 10px;
     height: 400px;
     width: 300px;
-    margin: 30px 0 0 519px;
+    margin: 30px 0 0 524px;
 }
+
+.user {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 35px;
+    width: 225px;
+    margin: 80px 0 0 35px;
+}
+
+.pass {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 35px;
+    width: 225px;
+    margin: 47px 0 0 35px;
+}
+
