@@ -1,0 +1,17 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-display: block;
+    background-color: #0c348a;
+}
+
+#sub {
+    font-weight: lighter;
+}
+
+.caixa-login {
+    background-color: black;
+    height: 400px;
+    width: 300px;
+    margin: 30px 0 0 520px;
+}
