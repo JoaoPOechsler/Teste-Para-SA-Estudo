@@ -1,8 +1,7 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    font-display: block;
-    background-color: #0c348a;
+    background-color: #eef0a3;
 }
 
 #sub {
@@ -10,8 +9,9 @@ body {
 }
 
 .caixa-login {
-    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
     height: 400px;
     width: 300px;
-    margin: 30px 0 0 520px;
+    margin: 30px 0 0 519px;
 }
