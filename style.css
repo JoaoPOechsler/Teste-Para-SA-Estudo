@@ -1,14 +1,14 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url(background.png);
 }
 
 .caixa-login {
+    background-color: peru;
     border: 1px solid black;
-    border-radius: 10px;
-    height: 58px;
-    width: 1362px;
-    margin: -77px 0 0 -7px;
+    border-radius: 1px;
+    height: 60px;
+    width: 1370px;
+    margin: -80px 0 0 -13px;
 }
 
 .user {
@@ -28,7 +28,7 @@ body {
 }
 
 .btn_login {
-    background-color: gray;
+    background-color: orange;
     color: #FFF;
     font-size: 15px;
     margin: 0 auto;
@@ -41,7 +41,33 @@ body {
     outline: none;
     border-radius: 12px;
     margin: -42px 0px 0px 1185px;
-    
-
 }
 
+/*------------------------------------------------------------------------------------------------- */
+
+.img_fundo {
+    width: 640px;
+    margin: 40px 0 0 320px;    
+}
+
+/*------------------------------------------------------------------------------------------------- */
+
+.inpt2 {
+    background-color: peru;
+    border: solid 0px black;
+    width: 221px;
+    height: 38px;
+    border-radius: 12px;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+}
+
+.inpt1 {
+    background-color: peru;
+    border: solid 0px black;
+    width: 221px;
+    height: 38px;
+    border-radius: 12px;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+}
