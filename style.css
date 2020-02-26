@@ -1,34 +1,47 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
     background-image: url(background.png);
-}
-
-#sub {
-    margin: 0px;
 }
 
 .caixa-login {
     border: 1px solid black;
     border-radius: 10px;
-    height: 400px;
-    width: 300px;
-    margin: 30px 0 0 524px;
+    height: 58px;
+    width: 1362px;
+    margin: -77px 0 0 -7px;
 }
 
 .user {
     border: 1px solid black;
     border-radius: 10px;
-    height: 35px;
+    height: 40px;
     width: 225px;
-    margin: 80px 0 0 35px;
+    margin: 8px 0 0 685px
 }
 
 .pass {
     border: 1px solid black;
     border-radius: 10px;
-    height: 35px;
+    height: 40px;
     width: 225px;
-    margin: 47px 0 0 35px;
+    margin: -42px 0 0 920px;
+}
+
+.btn_login {
+    background-color: gray;
+    color: #FFF;
+    font-size: 15px;
+    margin: 0 auto;
+    font-weight: bold;
+    line-height: 15px;
+    height: 41px;
+    width: 149px;
+    border: none;
+    display: block;
+    outline: none;
+    border-radius: 12px;
+    margin: -42px 0px 0px 1185px;
+    
+
 }
 
