@@ -1,4 +1,5 @@
 body {
+    color: black;
     font: .9rem 'Fira Sans', sans-serif;
     background-color:  #1a1a1a;
 }
@@ -54,21 +55,23 @@ body {
 .inpt2 {
     background-color: peru;
     border: solid 0px black;
-    width: 221px;
+    width: 225px;
     height: 38px;
-    border-radius: 12px;
+    border-radius: 10px;
     margin: 0px 0px 0px 0px;
     display: flex;
+    outline: none;
 }
 
 .inpt1 {
     background-color: peru;
     border: solid 0px black;
-    width: 221px;
+    width: 225px;
     height: 38px;
-    border-radius: 12px;
+    border-radius: 10px;
     margin: 0px 0px 0px 0px;
     display: flex;
+    outline: none;
 }
 
 /*------------------------------------------------------------------------------------------------- */
@@ -78,4 +81,19 @@ body {
     color: orange;
     box-shadow: inset 0 0 0 3px orange;
     transition: all 400ms ease;
+}
+
+.inicio:hover {
+    transition: all 400ms ease;
+    color: white;
+}
+
+.inpt1:hover {
+    transition: all 400ms ease;
+    background-color: white;
+}
+
+.inpt2:hover {
+    transition: all 400ms ease;
+    background-color: white;
 }
